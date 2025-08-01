@@ -27,11 +27,10 @@ def calculator():
         num2=int(input("Enter 2nd value"))
         
         if choice=='1':
-            a=add(num1,num2)
-            print(a)
+            print("Result:",add(num1,num2))
             break
         elif choice=='2':
-            print("Result:",substract(num1,num2))
+          print("Result:",substract(num1,num2))
             break
         elif choice=='3':
             print("Result:",prod(num1,num2))
